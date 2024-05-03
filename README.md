@@ -11,22 +11,23 @@ Daniyal Kazempour, University of Kiel, Germany
 Peer Kröger, University of Kiel, Germany  
 
 ## Running the Jupyter Notebook
+Install Anaconda: https://docs.anaconda.com/free/anaconda/install/index.html \
+or, Install Miniconda: https://docs.anaconda.com/free/miniconda/miniconda-install/ \
 
-1) Install Anaconda: https://docs.anaconda.com/free/anaconda/install/index.html \
-   or, Install Miniconda: https://docs.anaconda.com/free/miniconda/miniconda-install/ \
+In a terminal, run the below commands.  
 
-2) Build and activate the Conda environment: \
+1) Build and activate the Conda environment: \
 `conda create -n carbon_biomes python=3.8.13`
 
-3) Activate the new environment to run the code \
+2) Activate the new environment to run the code \
 `conda activate carbon_biomes`
 
-4) Install the dependencies: \
+3) Install the dependencies: \
 `pip install requirements.txt`
 
-5) Update the requirements.txt file if you install additional packages: \
+4) Update the requirements.txt file if you install additional packages: \
 `pip freeze > requirements.txt`
 
-6) Open Notebooks \
-`jupyter notebook`
-Run the .ipynb file.
+5) Open Notebooks \
+   Run the .ipynb file. : `jupyter notebook`  
+

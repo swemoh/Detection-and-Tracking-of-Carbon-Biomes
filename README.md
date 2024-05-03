@@ -10,24 +10,32 @@ Lavinia Patara, GEOMAR Helmholtz Centre for Ocean Research Kiel, Kiel, Germany
 Daniyal Kazempour, University of Kiel, Germany  
 Peer Kröger, University of Kiel, Germany  
 
-## Running the Jupyter Notebook
+## Running the Jupyter Notebooks
 Install Anaconda: https://docs.anaconda.com/free/anaconda/install/index.html \
 or, Install Miniconda: https://docs.anaconda.com/free/miniconda/miniconda-install/ \
 
 In a terminal, run the below commands.  
 
-1) Build and activate the Conda environment: \
-`conda create -n carbon_biomes python=3.8.13`
+1) Build and activate the Conda environments: \
+   i) Detection of carbon biomes: `conda create -n carbon_biomes_detection python=3.8.13`
+   ii) Tracking the biomes: `conda create -n carbon_biomes_tracking python=3.8.13`
 
-2) Activate the new environment to run the code \
-`conda activate carbon_biomes`
+3) Activate the new environment to run the code \
+`conda activate carbon_biomes_detection`  
+`conda activate carbon_biomes_tracking`
 
-3) Install the dependencies: \
+4) Install the dependencies: \
 `pip install requirements.txt`
 
-4) Update the requirements.txt file if you install additional packages: \
+5) Update the requirements.txt file if you install additional packages: \
 `pip freeze > requirements.txt`
 
-5) Open Notebooks \
-   Run the .ipynb file. : `jupyter notebook`  
+6) Open Notebooks \
+   Run the .ipynb file. : `jupyter notebook`
+
+### Detection of Biomes
+
+### Tracking the biomes
+
+
 
